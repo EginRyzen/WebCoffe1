@@ -14,6 +14,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/bgcoffe.jpg');
     padding-top: 80px;
     background-size: cover;
+    position: relative;
 }
 
 nav {
@@ -26,6 +27,7 @@ nav {
     /* background-color: rgb(43, 107, 43); */
     justify-content: space-around;
     align-items: center;
+    z-index: 1000;
 }
 
 nav .logo img {
@@ -119,6 +121,7 @@ nav ul li a {
 
 .menu-toggle {
     display: none;
+    z-index: 1001;
     flex-direction: column;
     height: 20px;
     justify-content: space-between;
@@ -192,7 +195,7 @@ nav ul li a {
         height: 100vh;
         align-items: center;
         justify-content: space-evenly;
-        z-index: -1;
+        z-index: 1000;
         width: 70%;
         transform: translateX(100%);
         transition: all 1s;
