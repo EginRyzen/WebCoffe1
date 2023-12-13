@@ -221,6 +221,43 @@ a.read-more:hover {
     background-color: #7c7878;
 }
 
+.menu-2 {
+    /* background-color: #535353;    */
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-2 .title {
+    margin: auto;
+    /* background-color: aqua; */
+    width: 50%;
+    height: auto;
+    /* Mengatur tinggi sesuai dengan konten */
+}
+
+.menu-2 .title h5 {
+    color: #535353;
+}
+
+.menu-2 .title p {
+    color: #535353;
+}
+
+.menu-2 .img {
+    width: 45%;
+    height: auto;
+    /* background-color: aquamarine; */
+}
+
+.menu-2 .img img {
+    width: 100%;
+    border-radius: 5px;
+    /* Mengatur tinggi gambar agar penuh pada .img */
+}
+
+
 
 /* Humberger */
 
@@ -299,6 +336,46 @@ a.read-more:hover {
         padding: 20px 0;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     }
+
+    .menu-2 {
+        /* background-color: #535353;    */
+        margin-bottom: 80px;
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu-2 .title {
+        margin: auto;
+        /* background-color: aqua; */
+        width: 100%;
+        height: auto;
+        /* Mengatur tinggi sesuai dengan konten */
+    }
+
+    .menu-2 .title h5 {
+        margin: 5px 0;
+        color: #535353;
+    }
+
+    .menu-2 .title p {
+        margin: 5px 0;
+        color: #535353;
+    }
+
+    .menu-2 .img {
+        width: 100%;
+        height: auto;
+        /* background-color: aquamarine; */
+        margin-top: 10px;
+    }
+
+    .menu-2 .img img {
+        width: 100%;
+        border-radius: 5px;
+        /* Mengatur tinggi gambar agar penuh pada .img */
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -344,5 +421,45 @@ a.read-more:hover {
         height: auto;
         padding: 20px 0;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .menu-2 {
+        /* background-color: #535353;    */
+        margin-bottom: 80px;
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu-2 .title {
+        margin: auto;
+        /* background-color: aqua; */
+        width: 100%;
+        height: auto;
+        /* Mengatur tinggi sesuai dengan konten */
+    }
+
+    .menu-2 .title h5 {
+        margin: 5px 0;
+        color: #535353;
+    }
+
+    .menu-2 .title p {
+        margin: 5px 0;
+        color: #535353;
+    }
+
+    .menu-2 .img {
+        width: 100%;
+        height: auto;
+        /* background-color: aquamarine; */
+        margin-top: 10px;
+    }
+
+    .menu-2 .img img {
+        width: 100%;
+        border-radius: 5px;
+        /* Mengatur tinggi gambar agar penuh pada .img */
     }
 }
