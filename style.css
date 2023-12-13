@@ -188,6 +188,7 @@ a.read-more {
     font-size: 15px;
     font-weight: 600;
     border: 1px solid #7c7878;
+    text-decoration: none;
 }
 
 a.read-more:hover {
