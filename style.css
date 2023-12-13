@@ -177,8 +177,10 @@ nav ul li a {
     color: rgb(29, 25, 25);
 }
 
-button.read-more {
-    margin: 10px 0;
+a.read-more {
+    display: block;
+    width: 35%;
+    margin: 10px auto;
     padding: 10px 20px;
     background-color: transparent;
     border-radius: 20px;
@@ -188,7 +190,7 @@ button.read-more {
     border: 1px solid #7c7878;
 }
 
-button.read-more:hover {
+a.read-more:hover {
     color: rgb(29, 25, 25);
     background-color: #7c7878;
 }
